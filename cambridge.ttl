@@ -14,7 +14,7 @@
     foaf:primaryTopic <http://www.cam.ac.uk/#org> .
 
 <http://www.cam.ac.uk/#org> a org:FormalOrganization , aiiso:Institution , lprov:UKUniversity ;
-    foaf:account <https://twitter.com/cambridge_uni>, <https://www.facebook.com/cambridge.university>, <https://plus.google.com/+cambridgeuniversity>, <https://www.linkedin.com/company/university-of-cambridge>, <https://www.youtube.com/user/CambridgeUniversity>, <https://www.flickr.com/photos/cambridgeuniversity>, <https://instagram.com/cambridgeuniversity/> ;
+    foaf:account <https://twitter.com/cambridge_uni>, <https://www.facebook.com/cambridge.university>, <https://plus.google.com/+cambridgeuniversity>, <https://www.linkedin.com/company/university-of-cambridge>, <https://www.youtube.com/user/CambridgeUniversity>, <https://vimeo.com/cambridge>, <https://soundcloud.com/university-of-cambridge>, <https://www.flickr.com/photos/cambridgeuniversity>, <https://instagram.com/cambridgeuniversity/> ;
     foaf:based_near <http://data.ordnancesurvey.co.uk/id/postcodeunit/CB21TN> ;
     foaf:homepage <https://www.cam.ac.uk/> ;
     foaf:logo <https://www.cam.ac.uk/.well-known/logo.png> ;
@@ -59,6 +59,14 @@
 <https://www.youtube.com/user/CambridgeUniversity> a foaf:OnlineAccount ;
     foaf:accountName "CambridgeUniversity" ;
     foaf:accountServiceHomepage <https://www.youtube.com/> .
+
+<https://vimeo.com/cambridge> a foaf:OnlineAccount ;
+    foaf:accountName "cambridge" ;
+    foaf:accountServiceHomepage <https://vimeo.com/> .
+
+<https://soundcloud.com/university-of-cambridge> a foaf:OnlineAccount ;
+    foaf:accountName "university-of-cambridge" ;
+    foaf:accountServiceHomepage <https://soundcloud.com/> .
 
 <https://www.linkedin.com/company/university-of-cambridge> a foaf:OnlineAccount ;
     foaf:accountName "university-of-cambridge" ;
