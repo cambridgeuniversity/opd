@@ -1,0 +1,8 @@
+before_install:
+  - sudo apt-get update -qq
+
+install:
+  - sudo apt-get install raptor2-utils
+
+script:
+  - rapper cambridge.ttl - --input turtle

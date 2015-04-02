@@ -1,0 +1,73 @@
+@prefix aiiso: <http://purl.org/vocab/aiiso/schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lprov: <http://id.learning-provider.data.ac.uk/terms#> .
+@prefix oo: <http://purl.org/openorg/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xtypes: <http://purl.org/xtypes/>.
+
+<> a oo:OrganizationProfileDocument ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    foaf:primaryTopic <http://www.cam.ac.uk/#org> .
+
+<http://www.cam.ac.uk/#org> a org:FormalOrganization , aiiso:Institution , lprov:UKUniversity ;
+    foaf:account <https://twitter.com/cambridge_uni>, <https://www.facebook.com/cambridge.university>, <https://plus.google.com/+cambridgeuniversity>, <https://www.linkedin.com/company/university-of-cambridge>, <https://www.youtube.com/user/CambridgeUniversity>, <https://www.flickr.com/photos/cambridgeuniversity>, <https://instagram.com/cambridgeuniversity/> ;
+    foaf:based_near <http://data.ordnancesurvey.co.uk/id/postcodeunit/CB21TN> ;
+    foaf:homepage <https://www.cam.ac.uk/> ;
+    foaf:logo <https://www.cam.ac.uk/.well-known/logo.png> ;
+    foaf:phone <tel:+441223337733> ;
+    owl:sameAs <http://data.semanticweb.org/organization/university-of-cambridge> ;
+    owl:sameAs <http://dbpedia.org/page/University_of_Cambridge> ;
+    owl:sameAs <http://education.data.gov.uk/id/school/133801> ;
+    owl:sameAs <http://id.learning-provider.data.ac.uk/ukprn/10007788> ;
+    skos:hiddenLabel "Cambridge University" ;
+    skos:prefLabel "University of Cambridge" ;
+    vcard:adr <http://www.cam.ac.uk/#address> ;
+    vcard:sortLabel "Cambridge, University of" .
+
+<http://www.cam.ac.uk/#address> a vcard:Address ;
+    vcard:country-name "United Kingdom" ;
+    vcard:extended-address "The Old Schools" ;
+    vcard:locality "Cambridge" ;
+    vcard:postal-code "CB2 1TN" ;
+    vcard:street-address "Trinity Lane" .
+
+<http://www.admin.cam.ac.uk/cambridge.csv>
+    dcterms:conformsTo <http://equipment.data.ac.uk/uniquip> ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject <http://purl.org/openorg/theme/equipment> ;
+    dcterms:subject <http://purl.org/openorg/theme/facilities> ;
+    oo:contact <mailto:christopher.r.wilkinson@admin.cam.ac.uk> ;
+    oo:corrections <mailto:christopher.r.wilkinson@admin.cam.ac.uk> ;
+    oo:organization <http://www.cam.ac.uk/#org> .
+
+<https://twitter.com/cambridge_uni> a foaf:OnlineAccount ;
+    foaf:accountName "cambridge_uni" ;
+    foaf:accountServiceHomepage <https://twitter.com/> .
+
+<https://www.facebook.com/cambridge.university> a foaf:OnlineAccount ;
+    foaf:accountName "cambridge.university" ;
+    foaf:accountServiceHomepage <https://www.facebook.com/> .
+
+<https://plus.google.com/+cambridgeuniversity> a foaf:OnlineAccount ;
+    foaf:accountName "+cambridgeuniversity" ;
+    foaf:accountServiceHomepage <https://plus.google.com/> .
+
+<https://www.youtube.com/user/CambridgeUniversity> a foaf:OnlineAccount ;
+    foaf:accountName "CambridgeUniversity" ;
+    foaf:accountServiceHomepage <https://www.youtube.com/> .
+
+<https://www.linkedin.com/company/university-of-cambridge> a foaf:OnlineAccount ;
+    foaf:accountName "university-of-cambridge" ;
+    foaf:accountServiceHomepage <https://www.linkedin.com/> .
+
+<https://www.flickr.com/photos/cambridgeuniversity> a foaf:OnlineAccount ;
+    foaf:accountName "cambridgeuniversity" ;
+    foaf:accountServiceHomepage <https://www.flickr.com/> .
+
+<https://instagram.com/cambridgeuniversity/> a foaf:OnlineAccount ;
+    foaf:accountName "cambridgeuniversity" ;
+    foaf:accountServiceHomepage <https://instagram.com/> .
