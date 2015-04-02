@@ -2,6 +2,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix lprov: <http://id.learning-provider.data.ac.uk/terms#> .
+@prefix lyou: <http://purl.org/linkingyou/> .
 @prefix oo: <http://purl.org/openorg/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -19,6 +20,22 @@
     foaf:homepage <https://www.cam.ac.uk/> ;
     foaf:logo <https://www.cam.ac.uk/.well-known/logo.png> ;
     foaf:phone <tel:+441223337733> ;
+    lyou:about <https://www.cam.ac.uk/about-the-university> ;
+    lyou:contact <https://www.cam.ac.uk/contact-the-university> ;
+    lyou:depts <https://www.cam.ac.uk/colleges-and-departments> ;
+    lyou:events <https://www.admin.cam.ac.uk/whatson/> ;
+    lyou:jobs <http://www.jobs.cam.ac.uk/> ;
+    lyou:news <https://www.cam.ac.uk/news> ;
+    lyou:open-data <http://www.data.cam.ac.uk/> ;
+    lyou:opendays <http://www.undergraduate.study.cam.ac.uk/events/cambridge-open-days> ;
+    lyou:postgraduate <http://www.graduate.study.cam.ac.uk/> ;
+    lyou:postgraduate-research-courses <http://www.graduate.study.cam.ac.uk/courses/research-degrees> ;
+    lyou:postgraduate-taught-courses <http://www.graduate.study.cam.ac.uk/courses> ;
+    lyou:research <https://www.cam.ac.uk/research> ;
+    lyou:search <https://search.cam.ac.uk/> ;
+    lyou:undergraduate <http://www.undergraduate.study.cam.ac.uk/> ;
+    lyou:undergraduate-courses <http://www.undergraduate.study.cam.ac.uk/courses> ;
+    lyou:web-accessibility <https://www.cam.ac.uk/about-this-site/accessibility> ;
     owl:sameAs <http://data.semanticweb.org/organization/university-of-cambridge> ;
     owl:sameAs <http://dbpedia.org/page/University_of_Cambridge> ;
     owl:sameAs <http://education.data.gov.uk/id/school/133801> ;
