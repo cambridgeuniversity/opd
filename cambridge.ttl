@@ -35,6 +35,20 @@
     vcard:postal-code "CB2 1TN" ;
     vcard:street-address "Trinity Lane" .
 
+<http://www.cam.ac.uk/news/feed> a xtypes:Document-RSS ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject <http://purl.org/openorg/theme/news> ;
+    oo:contact <mailto:communications@admin.cam.ac.uk> ;
+    oo:corrections <mailto:communications@admin.cam.ac.uk> ;
+    oo:organization <http://www.cam.ac.uk/#org> .
+
+<http://webservices.admin.cam.ac.uk/events/api/programmes/11/calendar/events.rss> a xtypes:Document-RSS ;
+    dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:subject <http://purl.org/openorg/theme/events> ;
+    oo:contact <mailto:events@admin.cam.ac.uk> ;
+    oo:corrections <mailto:events@admin.cam.ac.uk> ;
+    oo:organization <http://www.cam.ac.uk/#org> .
+
 <http://www.admin.cam.ac.uk/cambridge.csv>
     dcterms:conformsTo <http://equipment.data.ac.uk/uniquip> ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
