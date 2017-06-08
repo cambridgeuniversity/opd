@@ -71,8 +71,8 @@
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     dcterms:subject <http://purl.org/openorg/theme/equipment> ;
     dcterms:subject <http://purl.org/openorg/theme/facilities> ;
-    oo:contact <mailto:christopher.r.wilkinson@admin.cam.ac.uk> ;
-    oo:corrections <mailto:christopher.r.wilkinson@admin.cam.ac.uk> ;
+    oo:contact <mailto:equipment_sharing@admin.cam.ac.uk> ;
+    oo:corrections <mailto:equipment_sharing@admin.cam.ac.uk> ;
     oo:organization <http://www.cam.ac.uk/#org> .
 
 <https://twitter.com/cambridge_uni> a foaf:OnlineAccount ;
